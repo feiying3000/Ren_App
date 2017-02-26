@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/activity_user"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:text="输入ID："
+			/>
+		<EditText
+			android:id="@+id/edtId"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:inputType="number"
+			/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:text="输入FirstName："
+			/>
+		<EditText
+			android:id="@+id/edtFristName"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:inputType="text"
+			/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:text="输入LastName："
+			/>
+		<EditText
+			android:id="@+id/edtLastName"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:inputType="text"
+			/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/btnSave"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:text="保存数据"
+			android:onClick="setSave"
+			/>
+		<Button
+			android:id="@+id/btnLoad"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:text="加载数据"
+			android:onClick="setLoad"
+			/>
+	</LinearLayout>
+
+
+
+
+</LinearLayout>
